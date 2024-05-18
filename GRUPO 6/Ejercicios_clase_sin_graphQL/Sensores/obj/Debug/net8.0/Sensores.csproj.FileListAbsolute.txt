@@ -1,0 +1,14 @@
+C:\Users\AnaX15\Desktop\Sensores\bin\Debug\net8.0\Sensores.exe
+C:\Users\AnaX15\Desktop\Sensores\bin\Debug\net8.0\Sensores.deps.json
+C:\Users\AnaX15\Desktop\Sensores\bin\Debug\net8.0\Sensores.runtimeconfig.json
+C:\Users\AnaX15\Desktop\Sensores\bin\Debug\net8.0\Sensores.dll
+C:\Users\AnaX15\Desktop\Sensores\bin\Debug\net8.0\Sensores.pdb
+C:\Users\AnaX15\Desktop\Sensores\obj\Debug\net8.0\Sensores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AnaX15\Desktop\Sensores\obj\Debug\net8.0\Sensores.AssemblyInfoInputs.cache
+C:\Users\AnaX15\Desktop\Sensores\obj\Debug\net8.0\Sensores.AssemblyInfo.cs
+C:\Users\AnaX15\Desktop\Sensores\obj\Debug\net8.0\Sensores.csproj.CoreCompileInputs.cache
+C:\Users\AnaX15\Desktop\Sensores\obj\Debug\net8.0\Sensores.dll
+C:\Users\AnaX15\Desktop\Sensores\obj\Debug\net8.0\refint\Sensores.dll
+C:\Users\AnaX15\Desktop\Sensores\obj\Debug\net8.0\Sensores.pdb
+C:\Users\AnaX15\Desktop\Sensores\obj\Debug\net8.0\Sensores.genruntimeconfig.cache
+C:\Users\AnaX15\Desktop\Sensores\obj\Debug\net8.0\ref\Sensores.dll

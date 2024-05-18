@@ -1,0 +1,77 @@
+**************************PAOS PARA EL EJERCICIO**************************
+
+1. Ingresar a la terminal con ruta en la carpeta autónomo
+
+2. Instalar el entorno virtual
+    - python -m venv entornovirtual
+ 
+3. Iniciar el entorno virtual
+    - .\entornovirtual\Scripts\activate
+
+4. Instalar las dependencias
+    - pip install -r requirements.txt
+
+5. Realizar las migraciones
+    - py manage.py makemigrations
+    - py manage.py migrate
+
+6. Crear el superusuario (preferencia usar admin/admin)
+    - py manage.py createsuperuser
+
+7. Runear el servidor
+    - py manage.py runserver
+
+8. Ingresar a la ruta /admin y añadir las entidades equipaje, boleto y por ultimo persona (mínimo 3 cada una)
+
+9. Ingresar a la ruta /graphql y probar con los siguientes códigos para mostrar los datos y crear un datos
+
+***********CODE1***********
+
+{
+  personas {
+    id
+    nombre
+    apellido
+    idEquipaje {
+      id
+      marca
+      numeroObjeto
+    }
+    idBoleto {
+      id
+      codigo
+      precio
+    }
+  }
+  boletos {
+    id
+    codigo
+    precio
+  }
+  equipajes {
+    id
+    marca
+    numeroObjeto
+  }
+}
+
+***********CODE2***********
+mutation {
+  crearPersona(nombre: "Ariel", apellido: "Mendoza", idEquipaje: "2", idBoleto: "1") {
+    persona {
+      id
+      nombre
+      apellido
+      idEquipaje {
+        id
+        marca
+        numeroObjeto
+      }
+      idBoleto {
+        id
+        codigo
+        precio
+      }
+    }
+  }
+}
